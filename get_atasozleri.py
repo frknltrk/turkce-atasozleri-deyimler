@@ -56,6 +56,6 @@ for i,p in enumerate(pages):
 print("CSV tablosu yaratılıyor...")
 
 df = pd.DataFrame(all_pages)
-df.to_csv(f'atasozleri.csv')
+df.to_csv(f'atasozleri.csv', index=False)
 
 print("Bitti.")
