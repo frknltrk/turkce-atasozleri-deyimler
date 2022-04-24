@@ -10,7 +10,7 @@
 - https://mediawiki.org/wiki/API:Parsing_wikitext/tr#Python
 
 ## Sorgular
-https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri&cmlim
+- https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri&cmlim
 
 ## Teşekkürler
 - @aliefee
