@@ -49,8 +49,9 @@ all_pages = []
 for i,p in enumerate(pages):
     PARAMS_2['pageid'] = p['pageid']
     R = S.get(url=URL, params=PARAMS_2)
-    data = R.json()['parse']
-    all_pages.append(data)
+    data = R.json()
+    data['parse']['wikitext'] = data['parse']['wikitext']['*']
+    all_pages.append(data['parse'])
     print(f'{i+1}/{len(pages)}')
 
 print("CSV tablosu yaratılıyor...")
