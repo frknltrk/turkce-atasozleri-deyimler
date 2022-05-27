@@ -16,9 +16,9 @@ URL = "https://tr.wiktionary.org/w/api.php"
     
 PARAMS_1 = {
     "action": "query",
+    "list": "categorymembers",
     "cmtitle": "Kategori:Türkçe_atasözleri",
     "cmlimit": "max",
-    "list": "categorymembers",
     "format": "json"
 }
 
