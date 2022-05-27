@@ -9,8 +9,8 @@
 - https://mediawiki.org/wiki/API:Categorymembers/tr#Python
 - https://mediawiki.org/wiki/API:Parsing_wikitext/tr#Python
 
-## Sorgular
-- https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri&cmlim
+## Örnek Sorgular
+- https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri
 
 ## Teşekkürler
-- @aliefee
+- [@aliefee](https://github.com/aliefee)
