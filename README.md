@@ -1,5 +1,10 @@
 # Türkçe Atasözleri ve Deyimler
 
+## Adımlar
+1. API yoluyla tüm atasözlerini çekmek için ilk önce komut dosyası çalıştırılır (atasozleri_ham.csv çıkaracak): `python get_atasozleri.py`
+2. onisleme.ipynb dosyasındaki komutlar sırayla çalıştırılır (atasozleri_islenmemis.csv çıkaracak).
+3. Ardından bir elektronik çizelge (spreadsheet) yazılımı (Excel, Sheet bg.) kullanarak gerekli düzenlemeler yapılır.
+
 ## Dizinler
 - https://tr.wiktionary.org/wiki/Kategori:Türkçe_atasözleri
 - https://tr.wiktionary.org/wiki/Kategori:Türkçe_deyimler
