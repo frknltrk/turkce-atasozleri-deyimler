@@ -4,7 +4,6 @@
 # https://tr.wiktionary.org/wiki/%C3%96zel:ApiHelp
 # https://mediawiki.org/wiki/API:Categorymembers/tr#Python
 # https://mediawiki.org/wiki/API:Parsing_wikitext/tr#Python
-# https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri&cmlimit=20
 
 import pandas as pd
 import requests
@@ -13,7 +12,10 @@ import os
 S = requests.Session()
 
 URL = "https://tr.wiktionary.org/w/api.php"
-    
+
+# I. GET CATEGORYMEMBERS
+# https://tr.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Kategori:Türkçe_atasözleri&cmlimit=20
+
 PARAMS_1 = {
     "action": "query",
     "list": "categorymembers",
@@ -36,6 +38,9 @@ while True:
         break
         
 #print(len(pages))
+
+# II. GET PARSED MEMBERS
+# https://tr.wiktionary.org/w/api.php?action=parse&pageid=300336&prop=wikitext
 
 PARAMS_2 = {
     "action": "parse",
